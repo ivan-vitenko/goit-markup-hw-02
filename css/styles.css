@@ -1,0 +1,207 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-background-color: #ffffff;
+  --contacts-footer: rgba(255, 255, 255, 0.6);
+  --developed-by: rgba(255, 255, 255, 0.4);
+  --portfolio-button: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*Заголовки*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--title-text-color);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.index-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/*Налаштування для посилань*/
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus,
+.accent {
+  color: var(--accent-color);
+}
+
+/*Налаштування для кнопок*/
+button {
+  background-color: var(--portfolio-button);
+  color: var(--title-text-color);
+  border-style: none;
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+button:hover,
+button:focus,
+button:active {
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+}
+
+/*Активна кнопка*/
+.active-button {
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+}
+
+/*Налаштування для списків*/
+ul {
+  list-style: none;
+}
+
+/*Адреса*/
+address {
+  font-style: normal;
+}
+
+/*Логотип*/
+.logo {
+  color: var(--title-text-color);
+
+  font-family: Raleway, sans-serif;
+  font-weight: 700; /*Можливо зайвий рядок?*/
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo-footer {
+  color: var(--primary-background-color);
+
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+/*Меню*/
+.nav {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/*Контакти*/
+.contacts {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contacts-footer {
+  color: var(--contacts-footer);
+}
+
+/*Кнопки-посилання*/
+.button {
+  background-color: var(--accent-color);
+  color: var(--primary-background-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+/*Переваги*/
+.advantages h3 {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/*Можливості*/
+.possibility h3 {
+  color: var(--primary-background-color);
+  background-color: var(--primary-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*Команда*/
+.team h3,
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team h3 {
+  font-weight: 500;
+}
+
+/*Футер*/
+.footer {
+  background-color: var(--title-text-color);
+  color: var(--primary-background-color);
+}
+
+.join-in {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.developed-by {
+  color: var(--developed-by);
+
+  font-size: 12p;
+  line-height: 2;
+  text-align: center;
+}
+
+/*Портфоліо*/
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
