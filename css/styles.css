@@ -30,19 +30,15 @@ h6 {
 }
 
 h1 {
+  background-color: var(--primary-text-color);
+  color: var(--primary-background-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-}
-
-.index-h2 {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
 }
 
 /*Налаштування для посилань*/
@@ -78,7 +74,7 @@ button:active {
 }
 
 /*Активна кнопка*/
-.active-button {
+.button-active {
   background-color: var(--accent-color);
   color: var(--primary-background-color);
 }
@@ -98,7 +94,6 @@ address {
   color: var(--title-text-color);
 
   font-family: Raleway, sans-serif;
-  font-weight: 700; /*Можливо зайвий рядок?*/
   font-size: 26px;
   line-height: 1.19;
 }
@@ -142,15 +137,24 @@ address {
   text-align: center;
 }
 
-/*Переваги*/
-.advantages h3 {
+/*Заголовки секцій*/
+.section-title {
   font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/*Переваги*/
+.list-advantages h3 {
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 /*Можливості*/
-.possibility h3 {
+.list-possibility h3 {
   color: var(--primary-background-color);
   background-color: var(--primary-text-color);
 
@@ -162,14 +166,14 @@ address {
 }
 
 /*Команда*/
-.team h3,
-.team p {
+.list-team h3,
+.list-team p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.team h3 {
+.list-team h3 {
   font-weight: 500;
 }
 
@@ -179,27 +183,27 @@ address {
   color: var(--primary-background-color);
 }
 
-.join-in {
+.socials-slogan {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
-.developed-by {
+.caption-developer {
   color: var(--developed-by);
 
-  font-size: 12p;
+  font-size: 12px;
   line-height: 2;
   text-align: center;
 }
 
 /*Портфоліо*/
-.portfolio p {
+.list-portfolio p {
   font-size: 16px;
   line-height: 1.87;
 }
 
-.portfolio h2 {
+.list-portfolio h2 {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
