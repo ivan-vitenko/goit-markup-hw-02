@@ -166,14 +166,14 @@ address {
 }
 
 /*Команда*/
-.list-team h3,
-.list-team p {
+.team-list h3,
+.team-list p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
 }
 
-.list-team h3 {
+.team-list h3 {
   font-weight: 500;
 }
 
